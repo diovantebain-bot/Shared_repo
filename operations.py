@@ -1,9 +1,6 @@
-# Assign values to variables
-num1 = 10
-num2 = 20
+# This function will add two numbers
+def add (a, b)
+  return a+b
 
-# Add two numbers
-sum_result = num1 + num2
-
-# Display the sum
-print(f"The sum of {num1} and {num2} is: {sum_result}")
+def mult (a, b)
+  return a*b
